@@ -1,32 +1,20 @@
 {
   "manifest_version": 2,
 
-  "name": "Web Browser Extension Template",
-  "description": "Extension base template ready for development",
+  "name": "Zepp",
+  "description": "Web Helper for Zepp",
   "version": "1.0",
 
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
   },
-  // "options_page": "options.html", // Chrome only, full page
+  "options_page": "options.html",
 
-  "permissions": [
-    //"http://example.com",
-    "storage",
-    //"tabs"
-    "notifications"
-  ],
-
-  
-
-  "omnibox": { "keyword" : "nano" },
+  "permissions": ["storage", "tabs", "notifications"],
 
   "browser_action": {
-    "default_icon": "img/icon.png",
+    "default_icon": "img/Zepp-logos_white-ico.png",
     "default_popup": "index.html"
   }
-
-  //"update_url": "http://path.to/autoupdater_updates.xml" // Chrome
-
 }
